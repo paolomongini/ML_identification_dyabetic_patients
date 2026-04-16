@@ -1,0 +1,36 @@
+{
+  "code_identifier": "1000",
+  "exp_identifier": "101",
+  "timestamp": "2026-02-27T13:56:09.070290",
+  "epochs_101_s1": 2000,
+  "epochs_101_s2": 600,
+  "epochs_s1": 2000,
+  "epochs_s2": 1200,
+  "learning_rate": 0.001,
+  "use_noise": false,
+  "loss_type_s1": "L1",
+  "loss_type_s2": "L1",
+  "prior_weight_s1": 1,
+  "prior_weight_s2": 1,
+  "use_monotonic_gain_loss": true,
+  "cumulative_window": 48,
+  "horizon": 6.0,
+  "type_preprocess_insulin": "sum",
+  "use_low_pass_I": true,
+  "use_low_pass_I_on_prior": true,
+  "config_optimizer_s2": {
+    "early_stop_epoch": 600,
+    "early_stop_threshold": 0.01,
+    "optimizers": [
+      "Adam"
+    ],
+    "lr_min_max": [
+      1e-05,
+      0.1
+    ],
+    "prior_weight_s2_min_max": [
+      1,
+      100
+    ]
+  }
+}

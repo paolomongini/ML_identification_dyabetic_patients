@@ -1,0 +1,15 @@
+__pycache__/
+.ipynb_checkpoints/
+
+# ignora tutte le cartelle che contengono almeno un punto
+*cloned*/
+*pycache*/
+*data*/
+*git*/
+*runs*/
+
+
+# ignora tutti i file che contengono almeno un punto
+*README_ME*
+.gitattributes
+ngrok.exe
