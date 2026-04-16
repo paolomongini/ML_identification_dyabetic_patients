@@ -10,6 +10,6 @@ __pycache__/
 
 
 # ignora tutti i file che contengono almeno un punto
-*README_ME*
+*README_ME.md*
 .gitattributes
 ngrok.exe
